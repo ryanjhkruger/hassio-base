@@ -1,4 +1,4 @@
-ARG BUILD_FROM
+ARG BUILD_FROM=hassioaddons/base:latest
 FROM $BUILD_FROM
 
 # ensure local python is preferred over distribution python
